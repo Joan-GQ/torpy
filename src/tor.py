@@ -1,3 +1,4 @@
+from __future__ import annotations
 import typing
 import timeit
 import requests
@@ -8,7 +9,7 @@ from subprocess import Popen, PIPE, STDOUT, call
 from stem.control import Controller
 from stem import Signal
 from dotenv import load_dotenv, dotenv_values
-from __future__ import annotations
+
 
 load_dotenv('.env')
 
