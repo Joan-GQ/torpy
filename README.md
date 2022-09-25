@@ -33,4 +33,9 @@ print(onion.get_ip())
 request = onion.get('https://www.wikipedia.org')
 print(request.text)
 # >>> [The webpage as text]
+
+# Get new identity
+onion.renew_identity()
+print(onion.get_ip())
+# >>> 255.123.45.67 [Example IP, should return a different valid TOR session IP]
 ```
