@@ -2,6 +2,20 @@
   <img src="./assets/torpy.png">
 </div>
 
+Torpy is a custom library for anonymizing HTTP requests using ![Tor](https://www.torproject.org/) as a proxy. It provides methods similar to the ones found in the ![`requests`](https://pypi.org/project/requests) package. The Onion class is actually a wrapper for the `requests.Session` object.
+
+# Requirements:
+
+- **Linux based OS**
+- **Tor installed as service**: It can be installed by running the following command in Linux
+```console
+sudo apt-get install tor
+```
+- `requests` package with Sockets installed too. You can get it by:
+```console
+pip install requests[socks]
+```
+- All the libraries on `src/tor.py`
 
 # Example usage
 
