@@ -2,7 +2,7 @@
   <img src="./assets/torpy.png">
 </div>
 
-Torpy is a custom library for anonymizing HTTP requests using ![Tor](https://www.torproject.org/) as a proxy. It provides methods similar to the ones found in the ![`requests`](https://pypi.org/project/requests) package. The Onion class is actually a wrapper for the `requests.Session` object.
+Torpy is a custom library for anonymizing HTTP requests using ![Tor](https://www.torproject.org/) as a proxy. It provides methods similar to the ones found in the [`requests`](https://www.pypi.org/project/requests) package. The Onion class is actually a wrapper for the `requests.Session` object.
 
 # Requirements:
 
