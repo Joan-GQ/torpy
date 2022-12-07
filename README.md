@@ -15,7 +15,7 @@ sudo apt-get install tor
 ```console
 pip install requests[socks]
 ```
-- All the libraries on `src/tor.py`
+- All the libraries in `src/tor.py`
 - Tested in Python 3.8
 
 # Example usage
